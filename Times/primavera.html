@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primavera</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000 0%, #1a1a1a 50%, #FF0000 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000 0%, #FF0000 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #fff;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: #fff;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(255, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #FF0000;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #FF0000;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #FF1493;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #FF1493;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .titulos {
+            background: linear-gradient(135deg, #fff 0%, #ffd6d6 100%);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #FF0000;
+            border-right: 2px solid #FF0000;
+        }
+
+        .titulos p {
+            font-weight: bold;
+            color: #FF0000;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #000 0%, #FF0000 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #fff;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #000 0%, #FF0000 100%);
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(255, 20, 147, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #000 0%, #FF0000 100%);
+            color: #fff;
+            font-size: 0.9em;
+            border-top: 4px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">⚽ PRIMAVERA ⚽</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Grêmio Esportivo Primavera</h1>
+            <p class="subtitulo">Clube jovem com grande potencial</p>
+
+            <h2>História</h2>
+            <p>
+                O Grêmio Esportivo Primavera é um clube do futebol paulista que representa a renovação e juventude no Campeonato Paulista. 
+                Com suas cores em preto, vermelho e branco, o Primavera consolida-se como participante importante da competição estadual, 
+                buscando seu espaço entre os principales clubes.
+            </p>
+            <p>
+                O clube representa a força de novos projetos no futebol paulista, trazendo inovação e competitividade. 
+                O Primavera busca consolidar-se e crescer nas competições estaduais.
+            </p>
+
+            <h2>Trajetória no Campeonato Paulista</h2>
+            <p>
+                O Primavera participa do Campeonato Paulista com ambição e competitividade, buscando adquirir experiência e 
+                conquistar bons resultados. O time está em fase de desenvolvimento e crescimento.
+            </p>
+
+            <h2>Títulos do Campeonato Paulista</h2>
+            <div class="titulos">
+                <p>O Primavera é um participante em crescimento no Campeonato Paulista.</p>
+            </div>
+
+            <p style="margin-top: 30px;">
+                O Primavera continua sua jornada no futebol paulista, buscando consolidação e futuro brilhante nas competições estaduais.
+            </p>
+
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">← Voltar à Classificação</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Grêmio Esportivo Primavera | Feito por Matheus Santos</p>
+    </footer>
+</body>
+</html>

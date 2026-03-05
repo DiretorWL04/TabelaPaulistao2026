@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirassol</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #FFD700 0%, #1a1a1a 50%, #00a859 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #FFD700 0%, #00a859 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #00a859;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #00a859;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 168, 89, 0.3);
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: #fff;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #FFD700;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #00a859;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #008000;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #008000;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .titulos {
+            background: linear-gradient(135deg, #fffaf0 0%, #fffacd 100%);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #00a859;
+            border-right: 2px solid #00a859;
+        }
+
+        .titulos p {
+            font-weight: bold;
+            color: #008000;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #000 0%, #FFD700 100%);
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #FFD700;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #FFD700 0%, #000 100%);
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #000 0%, #FFD700 100%);
+            color: #FFD700;
+            font-size: 0.9em;
+            border-top: 4px solid #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">⚽ MIRASSOL ⚽</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Mirassol Futebol Clube</h1>
+            <p class="subtitulo">Tradição e paixão pelo futebol paulista</p>
+
+            <h2>História</h2>
+            <p>
+                O Mirassol Futebol Clube é um clube tradicional do interior paulista, representando a região de Mirassol. 
+                Com suas cores em amarelo e verde, o Mirassol consolidou-se como importante participante do Campeonato Paulista, 
+                buscando consistentemente bons resultados na competição estadual.
+            </p>
+            <p>
+                O clube é referência regional e mantém tradição de competição. O Mirassol representa a força do futebol 
+                do interior de São Paulo e busca crescimento contínuo em suas participações.
+            </p>
+
+            <h2>Trajetória no Campeonato Paulista</h2>
+            <p>
+                O Mirassol participa regularmente do Campeonato Paulista, enfrentando grandes clubes e buscando consolidar-se 
+                entre as principais equipes. O time mantém campanhas competitivas e está em presença constante na competição.
+            </p>
+
+            <h2>Títulos do Campeonato Paulista</h2>
+            <div class="titulos">
+                <p>O Mirassol é um participante tradicional do Campeonato Paulista, mantendo sua presença consistente.</p>
+            </div>
+
+            <p style="margin-top: 30px;">
+                O Mirassol continua representando o futebol do interior paulista, buscando consolidação e reconhecimento 
+                nas competições estaduais.
+            </p>
+
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">← Voltar à Classificação</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Mirassol Futebol Clube | Feito por Matheus Santos</p>
+    </footer>
+</body>
+</html>

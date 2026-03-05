@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capivariano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #DC143C 0%, #1a1a1a 50%, #fff 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #DC143C 0%, #fff 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #000;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #000;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(220, 20, 60, 0.3);
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: #fff;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(220, 20, 60, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #DC143C;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #DC143C;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #DC143C;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #DC143C;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .titulos {
+            background: linear-gradient(135deg, #fff 0%, #ffe6e6 100%);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #DC143C;
+            border-right: 2px solid #DC143C;
+        }
+
+        .titulos p {
+            font-weight: bold;
+            color: #DC143C;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #DC143C 0%, #000 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #fff;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #000 0%, #DC143C 100%);
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(220, 20, 60, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #DC143C 0%, #fff 100%);
+            color: #000;
+            font-size: 0.9em;
+            border-top: 4px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">⚽ CAPIVARIANO ⚽</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Capivariano Futebol Clube</h1>
+            <p class="subtitulo">Força e tradição do litoral paulista</p>
+
+            <h2>História</h2>
+            <p>
+                O Capivariano Futebol Clube é um clube do litoral norte paulista, representando a região de Capivari e arredores. 
+                Com suas cores em vermelho e branco, o Capivariano participa do Campeonato Paulista representando a força do futebol 
+                do interior ao litoral de São Paulo.
+            </p>
+            <p>
+                O clube é importante referência regional e mantém participação consistente nas competições estaduais, buscando 
+                consolidar sua presença e contribuir ao desenvolvimento do futebol paulista.
+            </p>
+
+            <h2>Trajetória no Campeonato Paulista</h2>
+            <p>
+                O Capivariano participa do Campeonato Paulista em busca de bons resultados e de sua consolidação entre as principais 
+                equipes do estado. O time mantém tradição de competição e busca constante por melhorias.
+            </p>
+
+            <h2>Títulos do Campeonato Paulista</h2>
+            <div class="titulos">
+                <p>O Capivariano é um participante importante do Campeonato Paulista, mantendo sua presença consistente na competição.</p>
+            </div>
+
+            <p style="margin-top: 30px;">
+                O Capivariano continua representando o futebol do litoral e interior paulista, buscando crescimento e reconhecimento 
+                no cenário do Campeonato Paulista.
+            </p>
+
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">← Voltar à Classificação</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Capivariano Futebol Clube | Feito por Matheus Santos</p>
+    </footer>
+</body>
+</html>

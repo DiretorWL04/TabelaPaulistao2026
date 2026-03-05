@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São Paulo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #C60C30 0%, #fff 50%, #000 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #C60C30 0%, #000 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #fff;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: #fff;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(198, 12, 48, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #C60C30;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #C60C30;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #C60C30;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #C60C30;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .titulos {
+            background: linear-gradient(135deg, #fff 0%, #ffe0e6 100%);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #C60C30;
+            border-right: 2px solid #C60C30;
+        }
+
+        .titulos p {
+            font-weight: bold;
+            color: #C60C30;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .titulo-item {
+            text-align: center;
+            padding: 8px;
+            margin: 8px 0;
+            background: rgba(198, 12, 48, 0.1);
+            border-radius: 4px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #C60C30 0%, #000 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #fff;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #000 0%, #C60C30 100%);
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(198, 12, 48, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #C60C30 0%, #000 100%);
+            color: white;
+            font-size: 0.9em;
+            border-top: 4px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">⚽ SÃO PAULO ⚽</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>São Paulo FC</h1>
+            <p class="subtitulo">Encarnação de um povo</p>
+
+            <h2>História</h2>
+            <p>
+                O São Paulo Futebol Clube é um dos maiores clubes do Brasil e do mundo, conhecido pela excelência técnica e 
+                administrativa. Fundado em 1930, o São Paulo consolidou-se como uma potência do futebol paulista, brasileiro 
+                e internacional, vencendo competições de grande importância.
+            </p>
+            <p>
+                Com suas cores em vermelho, branco e preto, o São Paulo representa uma identidade forte e marcante. 
+                O clube é conhecido por seu futebol de qualidade, com gerações de grandes talentos que brilharam tanto em 
+                terras paulistas quanto no cenário mundial.
+            </p>
+
+            <h2>Trajetória no Campeonato Paulista</h2>
+            <p>
+                O São Paulo é um dos clubes mais vitoriosos do Campeonato Paulista, frequentemente disputando as primeiras posições. 
+                O time mantém campanhas consistentes e buscas constantes pelo título estadual, reafirmando sua condição de 
+                candidato permanente ao troféu.
+            </p>
+
+            <h2>Títulos do Campeonato Paulista</h2>
+            <div class="titulos">
+                <p>O São Paulo é um dos grandes vencedores do Campeonato Paulista com múltiplas conquistas:</p>
+                <div class="titulo-item">🏆 Diversos títulos ao longo de sua história</div>
+                <p style="margin-top: 15px; font-style: normal;">
+                    O clube mantém uma tradição sólida de vitórias na competição estadual, consolidando seu status de uma 
+                    das maiores potências do Paulistão.
+                </p>
+            </div>
+
+            <p style="margin-top: 30px;">
+                O São Paulo continua como uma força relevante e constante no Campeonato Paulista, mantendo sua tradição 
+                de excelência e competitividade.
+            </p>
+
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">← Voltar à Classificação</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 São Paulo FC | Feito por Matheus Santos</p>
+    </footer>
+</body>
+</html>

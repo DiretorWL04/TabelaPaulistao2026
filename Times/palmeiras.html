@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palmeiras</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #006437 0%, #1a1a1a 50%, #fff 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #006437 0%, #fff 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #000;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #000;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 100, 55, 0.3);
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: #fff;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0, 100, 55, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #006437;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #006437;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #006437;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #006437;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .titulos {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e6ffe6 100%);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #006437;
+            border-right: 2px solid #006437;
+        }
+
+        .titulos p {
+            font-weight: bold;
+            color: #006437;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .titulo-item {
+            text-align: center;
+            padding: 8px;
+            margin: 8px 0;
+            background: rgba(0, 100, 55, 0.1);
+            border-radius: 4px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #006437 0%, #000 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #fff;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #000 0%, #006437 100%);
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(0, 100, 55, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #006437 0%, #fff 100%);
+            color: #000;
+            font-size: 0.9em;
+            border-top: 4px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">⚽ PALMEIRAS ⚽</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Sociedade Esportiva Palmeiras</h1>
+            <p class="subtitulo">O Verdão conquistador do Brasil</p>
+
+            <h2>História</h2>
+            <p>
+                O Palmeiras é um dos maiores e mais tradicionais clubes do Brasil, fundado em 1914. Conhecido como "Verdão", 
+                o Palmeiras consolidou-se como uma potência do futebol paulista e brasileiro, vencendo inúmeras competições 
+                importantes em sua história centenária.
+            </p>
+            <p>
+                Com suas cores em verde e branco, o Palmeiras é referência de tradição, excelência técnica e administrativa. 
+                O clube é conhecido por sua estrutura, investimentos consistentes e por formar gerações de grandes craques 
+                que brilham dentro e fora de terras paulistas.
+            </p>
+
+            <h2>Trajetória no Campeonato Paulista</h2>
+            <p>
+                O Palmeiras é um dos maiores vencedores do Campeonato Paulista, frequentemente disputando o topo da tabela. 
+                O time mantém campanhas consistentes e buscas permanentes por novos títulos na competição estadual que ajudou a construir.
+            </p>
+
+            <h2>Títulos do Campeonato Paulista</h2>
+            <div class="titulos">
+                <p>O Palmeiras é um dos maiores campeões do Campeonato Paulista com múltiplas conquistas:</p>
+                <div class="titulo-item">🏆 Múltiplos títulos ao longo de sua história</div>
+                <p style="margin-top: 15px; font-style: normal;">
+                    O Palmeiras mantém uma tradição gloriosa de vitórias em todas as competições que participa, consolidando 
+                    sua posição como uma das maiores potências do futebol paulista e brasileiro.
+                </p>
+            </div>
+
+            <p style="margin-top: 30px;">
+                O Palmeiras continua sendo uma força constante e relevante no Campeonato Paulista, demonstrando sua capacidade 
+                competitiva e mantendo seu prestigio de grande potência do futebol.
+            </p>
+
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">← Voltar à Classificação</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Sociedade Esportiva Palmeiras | Feito por Matheus Santos</p>
+    </footer>
+</body>
+</html>

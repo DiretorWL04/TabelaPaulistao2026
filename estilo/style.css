@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: #222;
+    padding: 20px;
+    width: 100%;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.historia {
+    background: rgba(255, 255, 255, 0.95);
+    max-width: 1000px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.historia h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.historia p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: #222;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%; 
+    max-width: 1000px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #222;
+    padding: 20px 10px 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+th, td{
+    border: none;
+    padding: 15px;
+    text-align: center;
+}
+
+th{
+    background: linear-gradient(135deg, #222, #444);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    transition: all 0.3s ease;
+    border-bottom: 1px solid #e0e0e0;
+    background: white;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+    transform: translateX(5px);
+    box-shadow: inset 4px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+tbody tr:nth-child(even):not(.classificados):not(.rebaixados){
+    background: #f0f0f0;
+}
+
+tbody tr:nth-child(even).classificados:hover,
+tbody tr:nth-child(even).rebaixados:hover {
+    transform: translateX(5px);
+}
+
+.classificados{
+    background: linear-gradient(135deg, #d4edda, #c3e6cb);
+    font-weight: 600;
+}
+
+.classificados:hover {
+    background: linear-gradient(135deg, #c3e6cb, #b1dfbb);
+}
+
+.rebaixados{
+    background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+    font-weight: 600;
+}
+
+.rebaixados:hover {
+    background: linear-gradient(135deg, #f5c6cb, #f1b0b7);
+}
+
+.tabela-paulistao a {
+    color: #000;
+    text-decoration: none;    
+    font-weight: bold;        
+    transition: color 0.3s, text-shadow 0.3s; 
+    position: relative;
+}
+
+.tabela-paulistao a:hover {
+    color: #333;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    width: 100%;
+}

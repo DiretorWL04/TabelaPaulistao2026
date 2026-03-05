@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velo Clube</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #008000 0%, #1a1a1a 50%, #FF0000 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #008000 0%, #FF0000 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #fff;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 128, 0, 0.3);
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: #fff;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0, 128, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #0066CC;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #008000;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #0066CC;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #0066CC;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .titulos {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e6f0ff 100%);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #008000;
+            border-right: 2px solid #008000;
+        }
+
+        .titulos p {
+            font-weight: bold;
+            color: #0066CC;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #008000 0%, #FF0000 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #fff;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #000 0%, #008000 100%);
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(0, 128, 0, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #008000 0%, #FF0000 100%);
+            color: #fff;
+            font-size: 0.9em;
+            border-top: 4px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">⚽ VELO CLUBE ⚽</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Velo Clube</h1>
+            <p class="subtitulo">Tradição de Ribeirão Preto</p>
+
+            <h2>História</h2>
+            <p>
+                O Velo Clube é um clube tradicional de Ribeirão Preto, fundado em 1911, e é uma das instituições mais antigas do futebol paulista. 
+                Com suas cores em verde e vermelho, o Velo Clube possui grande importância histórica e cultural na região de Ribeirão Preto. 
+                Participa do Campeonato Paulista representando o futebol da região.
+            </p>
+            <p>
+                O clube é referência tradidional de Ribeirão Preto e mantém forte presença no futebol paulista. O Velo Clube busca 
+                consolidar-se novamente entre as principais forças estaduais.
+            </p>
+
+            <h2>Trajetória no Campeonato Paulista</h2>
+            <p>
+                O Velo Clube participa do Campeonato Paulista buscando melhores resultados e a recuperação de sua posição competitiva. 
+                O time está em processo de reconstrução e busca consolidação.
+            </p>
+
+            <h2>Títulos do Campeonato Paulista</h2>
+            <div class="titulos">
+                <p>O Velo Clube é um clube histórico e tradicional do Campeonato Paulista.</p>
+            </div>
+
+            <p style="margin-top: 30px;">
+                O Velo Clube continua sua jornada no futebol paulista, buscando retornar ao patamar de destaque com base em sua 
+                tradição e história.
+            </p>
+
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">← Voltar à Classificação</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Velo Clube | Feito por Matheus Santos</p>
+    </footer>
+</body>
+</html>

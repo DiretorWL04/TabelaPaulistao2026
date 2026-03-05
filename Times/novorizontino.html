@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novorizontino</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000 0%, #1a1a1a 50%, #FFD700 100%);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #000 0%, #FFD700 100%);
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #FFD700;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #FFD700;
+            text-decoration: none;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            letter-spacing: 2px;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            background: #fff;
+            max-width: 900px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #000;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitulo {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #FFD700;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #000;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #FFD700;
+            padding-left: 15px;
+        }
+
+        p {
+            font-size: 1.05em;
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+
+        .titulos {
+            background: linear-gradient(135deg, #f5f5f5 0%, #fffacd 100%);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border-left: 4px solid #FFD700;
+            border-right: 2px solid #FFD700;
+        }
+
+        .titulos p {
+            font-weight: bold;
+            color: #000;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #000 0%, #FFD700 100%);
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid #FFD700;
+        }
+
+        .back-button:hover {
+            background: linear-gradient(135deg, #FFD700 0%, #000 100%);
+            transform: translateX(-5px);
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+            color: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #000 0%, #FFD700 100%);
+            color: #FFD700;
+            font-size: 0.9em;
+            border-top: 4px solid #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">⚽ NOVORIZONTINO ⚽</a>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Associação Atlética Novorizontino</h1>
+            <p class="subtitulo">Tradição do futebol paulista de Novo Horizonte</p>
+
+            <h2>História</h2>
+            <p>
+                O Novorizontino é um clube importante do interior paulista, fundado em 1976 e representando a região de Novo Horizonte. 
+                Com suas cores em azul e branco, o Novorizontino consolidou-se como uma força competitiva no Campeonato Paulista, 
+                participando ativamente e buscando conquistar espaço entre os principais times do estado.
+            </p>
+            <p>
+                O clube é referência regional e mantém investimentos em sua estrutura e desenvolvimento técnico. O Novorizontino 
+                representa a força do futebol interiorano e busca constantemente crescimento no cenário estadual.
+            </p>
+
+            <h2>Trajetória no Campeonato Paulista</h2>
+            <p>
+                O Novorizontino participa do Campeonato Paulista como um dos competidores regulares, buscando bons resultados e 
+                consolidação entre as principais equipes. O time mantém campanhas competitivas e está em constante busca por melhorias.
+            </p>
+
+            <h2>Títulos do Campeonato Paulista</h2>
+            <div class="titulos">
+                <p>O Novorizontino é um participante importante e crescente no Campeonato Paulista.</p>
+            </div>
+
+            <p style="margin-top: 30px;">
+                O Novorizontino continua representando o futebol de Novo Horizonte e do interior paulista, buscando consolidação 
+                e reconhecimento nas competições estaduais.
+            </p>
+
+            <div style="text-align: center;">
+                <a href="../index.html" class="back-button">← Voltar à Classificação</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Associação Atlética Novorizontino | Feito por Matheus Santos</p>
+    </footer>
+</body>
+</html>
